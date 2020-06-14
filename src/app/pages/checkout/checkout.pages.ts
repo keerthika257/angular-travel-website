@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CartService } from '../../services/cart.service';
-import { ProductsModel } from '../../model/products.model';
+import { PackagesModel } from '../../model/packages.model';
 
 @Component({
   template:`
@@ -18,7 +18,7 @@ export class CheckoutPage{
   public cartflag:boolean= false;
   constructor(   
     public cart: CartService,
-    public products: ProductsModel
+    public products: PackagesModel
 
   ){
 

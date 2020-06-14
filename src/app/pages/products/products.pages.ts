@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { ProductsModel } from '../../model/products.model';
+import { PackagesModel } from '../../model/packages.model';
 
 @Component({
   template:`
@@ -59,7 +59,7 @@ export class ProductsPage{
     public sortBy: string ='';
     public sortOption: string ='product_name|asc';
   constructor (
-    public products:ProductsModel
+    public products:PackagesModel
     
     ){
 
