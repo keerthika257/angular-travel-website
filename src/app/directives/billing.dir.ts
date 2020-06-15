@@ -38,7 +38,7 @@ import { FormBuilder } from '@angular/forms';
                  
       </div>
     <button type="submit" class="btn btn-sm btn-primary" [disabled]="billingForm.invalid" *ngIf="cart.cartItemsList && cart.cartTotal">Confirm and book packages</button>
-    <a routerLink="/products" class="btn btn-sm btn-info float-right">Continue select Packages</a>
+    <a routerLink="/packages" class="btn btn-sm btn-info float-right">Continue select Packages</a>
   
 </form>
   `,

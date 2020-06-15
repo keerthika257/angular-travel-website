@@ -12,7 +12,7 @@ const appRoutes: Routes = [
   
   {
     path : '',
-    redirectTo : '/pa',
+    redirectTo : '/packages',
     pathMatch : 'full'
   }
 ]

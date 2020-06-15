@@ -115,7 +115,7 @@ import { CompanyDetailsModel } from '../model/companydetails.model';
 <ng-template #emptyCheckout> 
 <div class="card alert alert-primary">
   <div class="card-body">
-    Please book the package and enjoy the trip.<a class="btn btn-sm btn-info float-right ml-2" routerLink = '/products'> Continue booking</a> &nbsp;  &nbsp; <a class="btn btn-sm btn-info float-right" routerLink = '/billing' *ngIf="cart.cartItemsList && cart.cartTotal"> Go to Billing</a>
+    Please book the package and enjoy the trip.<a class="btn btn-sm btn-info float-right ml-2" routerLink = '/packages'> Continue booking</a> &nbsp;  &nbsp; <a class="btn btn-sm btn-info float-right" routerLink = '/billing' *ngIf="cart.cartItemsList && cart.cartTotal"> Go to Billing</a>
   </div>
 </div>
 
@@ -168,7 +168,7 @@ export class CheckOutDir{
     
     //this.checkOutFlag = Object.keys(this.storage.get()).length;
     //console.log(this.checkOutFlag)
-    document.location.href='/products';
+    document.location.href='/packages';
   }
 
   print(){

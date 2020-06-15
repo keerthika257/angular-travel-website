@@ -86,7 +86,7 @@ export class AddToCartDir{
     let cartStatus = confirm("Are you sure you want to clear the cart ?");
     if(cartStatus){
       this.cart.emptyCart();
-      document.location.href = '/products';
+      document.location.href = '/packages';
     }
   }
 
