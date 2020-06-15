@@ -54,7 +54,7 @@ import { PackagesModel } from '../../model/packages.model';
   `
 })
 
-export class ProductsPage{
+export class PackagesPage{
     public cartflag:boolean= false;
     public sortBy: string ='';
     public sortOption: string ='product_name|asc';
