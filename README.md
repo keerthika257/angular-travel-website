@@ -1,3 +1,3 @@
-# angular-shopping-website-caouls
+To run project
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-shopping-website-caouls)
+https://angular-shopping-website-caouls.stackblitz.io/packages
