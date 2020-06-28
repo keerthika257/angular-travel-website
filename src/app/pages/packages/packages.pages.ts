@@ -9,17 +9,12 @@ import { PackagesModel } from '../../model/packages.model';
     <div class="form-row align-items-center">    
       <div class="col-md-9">     
         <div class="input-group mb-4 mt-2">
-
-
-
-
-        
           <div class="input-group-prepend">
             <div class="input-group-text">Search Countries</div>
-          </div>
+          
           <input [(ngModel)] = "searchText" class="form-control" placeholder="Please enter any country name to search ">
         </div>
-      </div>
+      </div></div>
       <div class="col-md-3">     
         <div class=" mb-4 mt-2"> 
           <select class="form-control"  [(ngModel)] = "sortOption">        
